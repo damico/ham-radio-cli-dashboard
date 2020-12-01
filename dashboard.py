@@ -47,7 +47,7 @@ def main(config_path):
 
         stdscr.addstr(stdscr.getmaxyx()[0] - 2, 2, 'Q - Quit', curses.color_pair(3))
 
-        begin_x = 60;
+        begin_x = 50;
         begin_y = 4
         height = 16;
         width = 50
